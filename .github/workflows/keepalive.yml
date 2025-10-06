@@ -2,7 +2,7 @@ name: Keep Supabase Awake
 
 on:
   schedule:
-    - cron: "0 */12 * * *"   # Every 12 hours (UTC)
+    - cron: "0 9 * * *"   #alle 09:00 UTC
   workflow_dispatch: {}
 
 jobs:
